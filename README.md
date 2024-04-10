@@ -57,7 +57,13 @@ image = cv2.imread('path/to/image')
 # Predict with the model
 results = model.predict(image, save=True)  
 ```
-
+## Citation
+Please cite this work if you use the dataset or pre-trained models in your research.
+```
+Askat Kuzdeuov, Darya Taratynova, Alim Tleuliyev, and Huseyin Atakan Varol.
+OpenThermalPose: An Open-Source Annotated Thermal Human Pose Dataset and Initial YOLOv8-Pose Baselines.
+TechRxiv. April 08, 2024. DOI: 10.36227/techrxiv.171259927.75861794/v1
+```
 ## References
 1. https://github.com/ultralytics/ultralytics
 2. https://docs.ultralytics.com/tasks/pose/ 
