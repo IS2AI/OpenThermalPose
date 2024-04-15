@@ -2,6 +2,14 @@
 ## An Open-Source Annotated Thermal Human Pose Dataset and Initial YOLOv8-Pose Baselines
 The OpenThermalPose dataset provides 6,090 images and 14,315 annotated human instances. Annotations include bounding boxes and 17 anatomical keypoints, following the conventions used in the benchmark MS COCO Keypoint dataset. The dataset covers various fitness exercises, multiple-person activities, and outdoor walking in different locations under different weather conditions. 
 
+#### Examples of images for sports exercises and two-person activities in an indoor environment
+<img src="https://github.com/IS2AI/OpenThermalPose/blob/main/1_5_1_16_frame517.png" width=448 height=336> <img src="https://github.com/IS2AI/OpenThermalPose/blob/main/1_6_1_17_frame370.png" width=448 height=336>
+<img src="https://github.com/IS2AI/OpenThermalPose/blob/main/2_1_8_frame97.png" width=448 height=336> <img src="https://github.com/IS2AI/OpenThermalPose/blob/main/2_2_8_frame94.png" width=448 height=336>
+
+#### Examples of images for random walking in an outdoor environment
+<img src="https://github.com/IS2AI/OpenThermalPose/blob/main/3370.png"> <img src="https://github.com/IS2AI/OpenThermalPose/blob/main/3471.png">
+
+
 The OpenThermalPose dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/1C5ThcFZm1twYtEta8GWUe1SENc9ER_0t/view?usp=sharing).  
 
 As a baseline, we trained and evaluated YOLOv8-pose models (nano, small, medium, large, and x-large) on our dataset. For more information about training, validation, and running YOLOv8-pose models, please visit [Ultralytics Docs](https://docs.ultralytics.com/tasks/pose/).
