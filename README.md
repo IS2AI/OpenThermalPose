@@ -1,5 +1,5 @@
 # OpenThermalPose
-## An Open-Source Annotated Thermal Human Pose Dataset and Initial YOLOv8-Pose Baselines
+## An Open-Source Annotated Thermal Human Pose Dataset and Initial YOLOv8-Pose Baselines ([Preprint on TechRxiv](https://www.techrxiv.org/users/682600/articles/741508-openthermalpose-an-open-source-annotated-thermal-human-pose-dataset-and-initial-yolov8-pose-baselines))
 The OpenThermalPose dataset provides 6,090 images and 14,315 annotated human instances. Annotations include bounding boxes and 17 anatomical keypoints, following the conventions used in the benchmark MS COCO Keypoint dataset. The dataset covers various fitness exercises, multiple-person activities, and outdoor walking in different locations under different weather conditions. 
 
 #### Examples of images for sports exercises and two-person activities in an indoor environment
