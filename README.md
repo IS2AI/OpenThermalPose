@@ -1,5 +1,8 @@
 # OpenThermalPose
-## An Open-Source Annotated Thermal Human Pose Dataset and Initial YOLOv8-Pose Baselines ([Preprint on TechRxiv](https://www.techrxiv.org/users/682600/articles/741508-openthermalpose-an-open-source-annotated-thermal-human-pose-dataset-and-initial-yolov8-pose-baselines))
+## An Open-Source Annotated Thermal Human Pose Dataset and Initial YOLOv8-Pose Baselines 
+- [Preprint on TechRxiv](https://www.techrxiv.org/users/682600/articles/741508-openthermalpose-an-open-source-annotated-thermal-human-pose-dataset-and-initial-yolov8-pose-baselines)
+- [Published on IEEE](https://ieeexplore.ieee.org/document/10581992)
+  
 The OpenThermalPose dataset provides 6,090 images and 14,315 annotated human instances. Annotations include bounding boxes and 17 anatomical keypoints, following the conventions used in the benchmark MS COCO Keypoint dataset. The dataset covers various fitness exercises, multiple-person activities, and outdoor walking in different locations under different weather conditions. 
 
 #### Examples of images for sports exercises and two-person activities in an indoor environment
@@ -68,9 +71,17 @@ results = model.predict(image, save=True)
 ## Citation
 Please cite this work if you use the dataset or pre-trained models in your research.
 ```
-Askat Kuzdeuov, Darya Taratynova, Alim Tleuliyev, and Huseyin Atakan Varol.
-OpenThermalPose: An Open-Source Annotated Thermal Human Pose Dataset and Initial YOLOv8-Pose Baselines.
-TechRxiv. April 08, 2024. DOI: 10.36227/techrxiv.171259927.75861794/v1
+@INPROCEEDINGS{10581992,
+  author={Kuzdeuov, Askat and Taratynova, Darya and Tleuliyev, Alim and Varol, Huseyin Atakan},
+  booktitle={2024 IEEE 18th International Conference on Automatic Face and Gesture Recognition (FG)}, 
+  title={OpenThermalPose: An Open-Source Annotated Thermal Human Pose Dataset and Initial YOLOv8-Pose Baselines}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Privacy;Annotations;Source coding;Pose estimation;Lighting;Medical services;Motion capture},
+  doi={10.1109/FG59268.2024.10581992}}
+
 ```
 ## References
 1. https://github.com/ultralytics/ultralytics
