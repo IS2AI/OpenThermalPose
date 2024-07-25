@@ -6,10 +6,9 @@
 The OpenThermalPose dataset provides 6,090 images and 14,315 annotated human instances. Annotations include bounding boxes and 17 anatomical keypoints, following the conventions used in the benchmark MS COCO Keypoint dataset. The dataset covers various fitness exercises, multiple-person activities, and outdoor walking in different locations under different weather conditions. 
 
 #### Examples of images for sports exercises and two-person activities in an indoor environment
-<img src="https://github.com/IS2AI/OpenThermalPose/blob/main/1_5_1_16_frame517.png" width=448 height=336> <img src="https://github.com/IS2AI/OpenThermalPose/blob/main/1_6_1_17_frame370.png" width=448 height=336>
-<img src="https://github.com/IS2AI/OpenThermalPose/blob/main/2_1_8_frame97.png" width=448 height=336> <img src="https://github.com/IS2AI/OpenThermalPose/blob/main/2_2_8_frame94.png" width=448 height=336>
+<img src="https://github.com/IS2AI/OpenThermalPose/blob/main/session_1_2.png"> 
 
-#### Examples of images for random walking in an outdoor environment
+#### Examples of images for random walking in outdoor environments
 <img src="https://github.com/IS2AI/OpenThermalPose/blob/main/3370.png"> <img src="https://github.com/IS2AI/OpenThermalPose/blob/main/3471.png">
 
 
