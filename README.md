@@ -51,7 +51,7 @@ metrics.box.maps   # a list contains map50-95 of each category
 
 ## Predict
 ### Pre-trained models
-Download a zip file with all checkpoints from [Google Drive](https://drive.google.com/file/d/1PHyHSuM-n2XgqNgpl55Nn7fAqhukVEXw/view?usp=sharing). 
+Download a zip file with all checkpoints from [Google Drive](https://drive.google.com/file/d/1BS2AB6wGRjZ8Tvz44_jkURR6moRpVS1j/view?usp=sharing). 
 
 ### Python 
 ```
