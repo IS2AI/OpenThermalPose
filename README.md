@@ -9,6 +9,7 @@ The OpenThermalPose dataset provides 6,090 images of 31 subjects and 14,315 anno
 # OpenThermalPose2
 ## Extending the Open-Source Annotated Thermal Human Pose Dataset With More Data, Subjects, and Poses
 We extended our OpenThermalPose dataset with more data, subjects, and poses. The new OpenThermalPose2 dataset contains 11,391 images of 170 subjects and 21,125 annotated human instances. The dataset covers various fitness exercises, multiple-person activities, persons sitting in an indoor environment, and persons walking in outdoor locations under different weather conditions. We trained and evaluated the YOLOv8-pose and YOLO11-pose models (nano, small, medium, large, and x-large) on this dataset. 
+- [Preprint on TechRxiv](https://www.techrxiv.org/users/682600/articles/1231799-openthermalpose2-extending-the-open-source-annotated-thermal-human-pose-dataset-with-more-data-subjects-and-poses)
 - [Download the dataset](https://drive.google.com/file/d/1BDVprz9NtenCp3wDovA2lfKVBzJDCTt2/view?usp=sharing)
 - [Download the pre-trained YOLOv8-pose and YOLO11-pose models](https://drive.google.com/file/d/19bvKSNKs3Z-8EFSJcTMaI-MdkNwVKh1f/view?usp=sharing)
 
@@ -74,7 +75,8 @@ image = cv2.imread('path/to/image')
 results = model.predict(image, save=True)  
 ```
 ## Citation
-Please cite this work if you use the dataset or pre-trained models in your research.
+Please cite our work if you use our datasets/pre-trained models in your research.
+#### OpenThermalPose
 ```
 @INPROCEEDINGS{10581992,
   author={Kuzdeuov, Askat and Taratynova, Darya and Tleuliyev, Alim and Varol, Huseyin Atakan},
@@ -87,6 +89,10 @@ Please cite this work if you use the dataset or pre-trained models in your resea
   keywords={Privacy;Annotations;Source coding;Pose estimation;Lighting;Medical services;Motion capture},
   doi={10.1109/FG59268.2024.10581992}}
 
+```
+#### OpenThermalPose2
+```
+Askat Kuzdeuov, Miras Zakaryanov, Alim Tleuliyev, and Huseyin Atakan Varol. OpenThermalPose2: Extending the Open-Source Annotated Thermal Human Pose Dataset With More Data, Subjects, and Poses. TechRxiv. October 18, 2024, DOI: 10.36227/techrxiv.172926774.47783447/v1.
 ```
 ## References
 1. https://github.com/ultralytics/ultralytics
